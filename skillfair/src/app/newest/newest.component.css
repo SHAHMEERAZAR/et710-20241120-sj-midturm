@@ -1,0 +1,30 @@
+.newest {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.product img {
+  border-radius: 4px;
+}
+
+.product p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
